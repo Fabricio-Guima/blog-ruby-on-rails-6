@@ -1,0 +1,13 @@
+<%# <%= @posts.each do |post| %>
+  <%# <%= render 'post', post: post %>
+<%# <% end %>
+
+<div class="d-flex justify-content-end">
+  <%= link_to "Criar novo post", new_post_path, class: "btn btn-success mb-4" %>
+</div>
+
+<%= render @posts %>
+
+
+
+
